@@ -11,34 +11,41 @@ header styles
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;   
+    padding-top: 20px;
 }
+
 .nav-title {
     font-weight: 700;
     font-size: 18px;
 }
+
 .item {
     font-weight: 500;
     padding-left: 30px;
 }
+
 .menu-container>ul {
     list-style: none;
     display: flex;
 }
+
 header {
     background-color: antiquewhite;
     margin-bottom: 10px;
 }
+
 .banner-discription {
     padding-top: 50px;
     text-align: center;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
     padding-bottom: 20px;
 }
+
 .primary-btn {
     font-weight: 600;
     padding: 10px;
@@ -51,6 +58,7 @@ header {
     font-size: 18px;
     text-align: center;
 }
+
 .banner-img {
     width: 100%;
     width: 1440px;
@@ -59,6 +67,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
 .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -67,13 +76,16 @@ header {
     align-items: center;
 }
 
-/* feature styles */
+/* --------------------
+feature styles
+------------------------ */
 .feature-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     padding-bottom: 24px;
 }
+
 .feature-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -84,17 +96,69 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
 .feature-clr {
     color: orangered;
 }
+
 .feature-discription {
     margin-right: 250px;
     margin-left: 250px;
     align-items: center;
     margin-top: 250px;
 }
+
 .feature-discription-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+
+/*------------------------
+ love and enjoy styles 
+ -------------------------*/
+.enjoy-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 300px;
+    align-items: center;
+}
+
+.love-img {
+    left: 54px;
+    width: 708px;
+    height: 982px;
+    width: 100%;
+}
+
+.enjoy-sub-info-main {
+    padding: 20px;
+    margin-left: 240px;
+}
+
+.enjoy-sub-info-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.enjoy-sub-info-dis {
+    line-height: 30px;
+    color: #727272;
+}
+
+.enjoy-sub-info {
+    padding: 30px;
+}
+
+.enjoy-1 {
+    padding: 30px;
+}
+
+.enjoy-sub-info-title-1 {
+    padding-bottom: 10px;
 }
