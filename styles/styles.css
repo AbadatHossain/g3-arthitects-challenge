@@ -201,6 +201,7 @@ feature styles
 .stat-info-main {
     padding: 20px;
     margin-left: 240px;
+    
 }
 
 .stat-sub-info-title {
@@ -389,6 +390,7 @@ footer {
         text-align: center;
         align-items: center;
         margin-right: 100px;
+        margin-top: 620px;
 
     }
 
