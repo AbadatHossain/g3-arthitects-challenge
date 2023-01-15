@@ -68,6 +68,9 @@ header {
     margin-right: auto;
 }
 
+/* --------------------
+feature styles
+------------------------ */
 .feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -76,9 +79,6 @@ header {
     align-items: center;
 }
 
-/* --------------------
-feature styles
------------------------- */
 .feature-title {
     font-weight: 700;
     font-size: 45px;
@@ -165,7 +165,8 @@ feature styles
 .enjoy-sub-info-title-1 {
     padding-bottom: 10px;
 }
-.btn-left{
+
+.btn-left {
     font-weight: 600;
     padding: 10px;
     margin-top: -40px;
@@ -180,7 +181,8 @@ feature styles
     bottom: -5%;
     /* position: absolute; */
 }
-.btn-left-info{
+
+.btn-left-info {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -189,9 +191,6 @@ feature styles
     border: 0;
     border-radius: 5px;
     font-size: 14px;
-    text-align: ;
-
-
 }
 
 
@@ -235,7 +234,7 @@ feature styles
     /* align-items: center; */
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .stat-discription-icon:hover {
@@ -282,51 +281,136 @@ footer {
 
 /* media query styles */
 
-    @media only screen and (max-width: 600px) {
-        .nav-container {
-          width: 100%;
-          flex-direction: column;
-         
-        }
-        
-        .menu-container>ul {
-           flex-direction: column;
-        }
-        .banner-img {
-            width: 100%;
-            height: 200px;
-            padding-top: 50px;
-            /* margin-left: auto;
-            margin-right: auto; */
-        }
-        .feature-img {
-            display: grid;
-            /* grid-template-columns:repeat(1, 1fr); */
-            flex-direction: column-reverse;
-            /* width: 100%; */
-           
-        
-      }
-      .feature-discription {
+@media only screen and (max-width: 576px) {
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .menu-container>ul {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* flex-direction: column; */
+        align-items: center;
+
+
+
+    }
+
+    .feature-discription {
+        /* margin-right: auto;
+        margin-left: auto; */
+        align-items: center;
+        padding-top: 200px;
+    }
+
+
+    .enjoy-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 300px;
+        align-items: center;
+        padding-top: 800px;
+
+    }
+
+    .enjoy-sub-info-main {
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .love-img {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 100vh;
+        width: 100%;
+        /* position: relative; */
+    }
+
+    .btn-left {
+        font-weight: 600;
+        padding: 10px;
+        margin-top: -40px;
+        margin-left: -5px;
+        margin-bottom: 20px;
+        color: white;
+        background-color: orangered;
+        border-radius: 5px;
+        font-size: 26px;
+        text-align: center;
+        left: -5%;
+        bottom: -5%;
+    }
+
+    .feature-discription {
         margin-right: auto;
         margin-left: auto;
         align-items: center;
         margin-top: 250px;
+        padding-left: 20px;
     }
+
     .sponsor-discription {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
-    footer {
-       
 
-        width: 100%;
-        height: 50px;
-        
-        
+    .stat-info-main {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        margin-right: 100px;
+
     }
-    
-    
+
+    .stat-discription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+
+    }
+
+    footer {
+        width: 400px;
+        /* width: 100%; */
+        height: 50px;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 80px;
+
+
+    }
+
+
 }
