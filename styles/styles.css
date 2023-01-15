@@ -131,6 +131,7 @@ feature styles
     width: 708px;
     height: 982px;
     width: 100%;
+    /* position: relative; */
 }
 
 .enjoy-sub-info-main {
@@ -164,6 +165,35 @@ feature styles
 .enjoy-sub-info-title-1 {
     padding-bottom: 10px;
 }
+.btn-left{
+    font-weight: 600;
+    padding: 10px;
+    margin-top: -40px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 26px;
+    text-align: center;
+    left: -5%;
+    bottom: -5%;
+    /* position: absolute; */
+}
+.btn-left-info{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: orangered;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: ;
+
+
+}
+
 
 .stat-info {
     padding-top: 100px;
